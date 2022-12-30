@@ -44,6 +44,31 @@ nav ul li a{
     color: white;
     text-decoration: none;
 }
+nav ul li a:hover{
+    font-weight: bolder;
+    /* color: red; */
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+.search input{
+    width: 495px;
+    height: 25px;
+    border-radius: 3px;
+    margin: 0 16px 0 50px;
+    padding: 0 12px;
+    
+}
+.search button{
+   font-style:  'Dosis', sans-serif;
+   font-weight: bold;
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+}
 .container{
     min-height: calc(100vh - 58px - 12vh);
     /* background-color: aqua; */
