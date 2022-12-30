@@ -3,6 +3,28 @@
     margin: 0;
     padding: 0;
 }
+header{
+    height: 58px;
+    background-color: blue;
+    color:white;
+    font-family: 'Dosis', sans-serif;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    /* border: 3px solid red; */
+    justify-content: flex-start;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
 footer{
     height: 12vh;
     background-color: black;
