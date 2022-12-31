@@ -21,4 +21,5 @@
 }
 .text-center{
     text-align: center;
+    /* text-overflow: inherit; */
 }
