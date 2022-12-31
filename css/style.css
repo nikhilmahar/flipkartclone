@@ -69,6 +69,27 @@ nav ul li a:hover{
     width: 80vw;
     margin: 12px auto;
 }
+.card{
+    background-color: whitesmoke;
+    margin:0 30px;
+}
+.card h2{
+    font-family:'Dosis', sans-serif ;
+    
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    /* margin: 0 15px; */
+
+}
+.card-item{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 12vw;
+    margin: 0 15px;
+}
 .container{
     min-height: calc(100vh - 58px - 12vh);
     /* background-color: aqua; */
